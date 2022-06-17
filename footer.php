@@ -33,7 +33,7 @@
 										<li><a href="https://facebook.com/<?php the_field('location_facebook');?>" target="_blank">Facebook - <?php the_field('location_shortname');?></a></li>
 										<li><a href="https://twitter.com/<?php the_field('location_twitter');?>" target="_blank">Twitter - <?php the_field('location_shortname');?></a></li>
 									<?php endif; ?>
-									<li><a href="" target="_blank">YouTube (plus note on respective links)</a></li>
+									<li><a href="<?php the_field('bt_youtube', 'option'); ?>" target="_blank">YouTube</a></li>
 								</ul>
 							</div>
 						</div>
@@ -41,7 +41,7 @@
 							<div class="mol__unit-contact">
 								<h4>Contact us</h4>
 								<ul>
-									<li><a href="mailto:hello@boomtennis.co.uk">hello@boomtennis.co.uk</a>.</li>
+									<li><a href="mailto:hello@boomtennis.co.uk">hello@boomtennis.co.uk</a></li>
 									<li>07950 802 770</li>
 									<li>Boom Tennis<br/>
 										Redhill Lawn Tennis Club<br>
