@@ -1,0 +1,44 @@
+// Add typography from https://simplecss.org/
+// Add font
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+h1 {
+	@include brand--font-sans;
+	&.type--brand {
+		@include brand--font-serif;
+		font-size: 3rem;
+		letter-spacing: 0.05em;
+		margin-bottom: $margin--small;
+	}
+}
+
+h2 {
+
+}
+
+h5 {
+	font-size: 0.9rem;
+}
+
+p {
+	@include brand--font-sans;
+}
+
+.ut--uc {
+	@include headingUC;
+}
+
+.text--shadow {
+	text-shadow: 0 0 12px rgba(0,0,0,0.7);
+}
+
+@media(min-width: 768px) {
+	h1 {
+		&.type--brand {
+			font-size: 5rem;
+		}
+	}
+}

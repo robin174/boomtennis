@@ -1,0 +1,70 @@
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$color--primary: #002b49; // Navy blue
+$color--secondary: #76bc21; // Green
+$color--tertiary: #f0f2de; // Pale yellow
+$color--white: #fff; // white
+$color--black: #000; // black
+
+$color--highlight-light: $color--secondary;
+$color--highlight-dark: $color--secondary;
+
+$box--shadow-light: 0 0 10px rgba(0,0,0,0.3); 
+$box--shadow-dark: 0 0 10px rgba(0,0,0,0.6); 
+
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+// $brand--font-serif: "jubilat", serif;
+// font-family: jubilat, serif;
+// font-style: normal;
+// font-weight: 600;
+
+// $brand--font-sans: "fira-sans", sans-serif;
+// font-family: fira-sans, sans-serif;
+// font-style: normal;
+// font-weight: 400;
+
+// $brand--font-footer: "roboto", sans-serif;
+// font-family: roboto, sans-serif;
+// font-style: normal;
+// font-weight: 400;
+
+@mixin brand--font-serif {
+	font-family: jubilat, serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+@mixin brand--font-sans {
+	font-family: fira-sans, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@mixin brand--font-footer {
+	font-family: roboto, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+/* Initial sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  NOTE. html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px */
+/*  NOTE. If normal, 100% equals 16px sizing. */
+html {
+    font-size: 100%; 
+}
+
+body {
+	@include brand--font-sans;
+	color: $color--primary;
+	font-size: 1em; /* currently ems because Chrome bug misinterpreting rems on body element */
+}
+
+$base-value: 1rem; // To test: rems/ems/px
+
+$margin--small: $base-value;
+$margin--general: $base-value*2;
+$padding--small: $base-value;
+$padding--general: $base-value*2;
