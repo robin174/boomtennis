@@ -13,6 +13,12 @@ h1 {
 		letter-spacing: 0.05em;
 		margin-bottom: $margin--small;
 	}
+	&.location--small {
+		@include brand--font-serif;
+		font-size: 2rem;
+		letter-spacing: 0.05em;
+		margin-bottom: $margin--small;
+	}
 }
 
 h2 {
@@ -32,13 +38,16 @@ p {
 }
 
 .text--shadow {
-	text-shadow: 0 0 12px rgba(0,0,0,0.7);
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 @media(min-width: 768px) {
 	h1 {
 		&.type--brand {
 			font-size: 5rem;
+		}
+		&.location--small {
+			font-size: 3.4rem;
 		}
 	}
 }

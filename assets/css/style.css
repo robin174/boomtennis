@@ -39,6 +39,13 @@ h1 {
     font-size: 3rem;
     letter-spacing: 0.05em;
     margin-bottom: 1rem; }
+  h1.location--small {
+    font-family: jubilat, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem; }
 
 h5 {
   font-size: 0.9rem; }
@@ -53,11 +60,13 @@ p {
   letter-spacing: 0.2em; }
 
 .text--shadow {
-  text-shadow: 0 0 12px rgba(0, 0, 0, 0.7); }
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 @media (min-width: 768px) {
   h1.type--brand {
-    font-size: 5rem; } }
+    font-size: 5rem; }
+  h1.location--small {
+    font-size: 3.4rem; } }
 
 blockquote {
   font-size: 1.1rem;

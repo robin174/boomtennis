@@ -22,7 +22,7 @@ get_header(); ?>
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-12">
 						<div class="text-center">
-							<h1 class="type--brand text--shadow"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&nbsp;&#64;&nbsp;<?php the_title(); ?></h1>
+							<h1 class="text--shadow location--small"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&nbsp;&#64;&nbsp;<?php the_title(); ?></h1>
 							<section>
 								<?php get_template_part('template-parts/unit-teamup'); ?>
 							</section>
