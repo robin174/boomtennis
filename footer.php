@@ -41,7 +41,7 @@
 							<div class="mol__unit-contact">
 								<h4>Contact us</h4>
 								<ul>
-									<li><a href="mailto:hello@boomtennis.co.uk">hello@boomtennis.co.uk</a></li>
+									<li><a href="mailto:hello@boomtennis.co.uk">hello@boomtennis.co.uk</a>.</li>
 									<li>07950 802 770</li>
 									<li>Boom Tennis<br/>
 										Redhill Lawn Tennis Club<br>
