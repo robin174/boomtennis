@@ -1,0 +1,75 @@
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$color--primary: #002b49; // Navy blue
+$color--secondary: #76bc21; // Green
+$color--tertiary: #f0f2de; // Pale yellow
+$color--white: #fff; // white
+$color--black: #000; // black
+
+// Boom Community Tennis
+$color--bct-primary: #002b49; // Navy blue
+$color--bct-secondary: orange; // Green
+$color--bct-tertiary: #f0f2de; // Pale yellow
+
+$color--bg-dark: darken($color--primary, 5%);
+
+$color--highlight-light: lighten($color--secondary, 10%);
+$color--highlight-dark: darken($color--secondary, 10%);
+
+$box--shadow-light: 0 0 10px rgba(0,0,0,0.3); 
+$box--shadow-dark: 0 0 10px rgba(0,0,0,0.6);
+
+$base--transition: 0.3s;
+
+$base-value: 1rem; // To test: rems/ems/px
+
+$margin--small: $base-value;
+$margin--general: $base-value*2;
+$padding--small: $base-value;
+$padding--general: $base-value*2;
+
+// Age-group pill
+$pill--yellow: #ffe31a;
+$pill--green: #19b228;
+$pill--orange: #f74c16;
+$pill--red: #ed1c24;
+
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@mixin brand--font-serif-500 {
+	font-family: jubilat, serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+@mixin brand--font-serif-600 {
+	font-family: jubilat, serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+@mixin brand--font-sans {
+	font-family: fira-sans, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@mixin brand--font-footer {
+	font-family: roboto, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* Initial sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  NOTE. html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px */
+/*  NOTE. If normal, 100% equals 16px sizing. */
+html {
+    font-size: 100%; 
+}
+
+body {
+	@include brand--font-sans;
+	color: $color--primary;
+	font-size: 1em; /* currently ems because Chrome bug misinterpreting rems on body element */
+}
