@@ -86,12 +86,5 @@ if ( ! function_exists( 'boomtennis_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'boomtennis_setup');
 
-// ACF Issue - Remove Shortcode
-// https://www.advancedcustomfields.com/resources/shortcode/#disabling
-add_action( 'acf/init', 'set_acf_settings' );
-    function set_acf_settings() {
-        acf_update_setting( 'enable_shortcode', false );
-}
-
 /* Load custom WordPress nav walker */
 require_once THEME_DIR_PATH . '/includes/wp-bootstrap-navwalker5.php';
