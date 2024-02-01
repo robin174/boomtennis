@@ -354,6 +354,11 @@ nav {
   border-width: 2px;
   border-color: rgba(255, 255, 255, 0.2) !important; }
 
+.btn-close {
+  width: 2rem;
+  height: 2rem;
+  background: unset !important; }
+
 @media (min-width: 768px) {
   .offcanvas.offcanvas-end {
     backdrop-filter: unset;

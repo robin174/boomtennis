@@ -173,8 +173,13 @@ nav {
  	& .navbar-toggler-icon {
 
  	}
-} 
+}
 
+.btn-close {
+	width: 2rem;
+    height: 2rem;
+	background: unset!important;
+}
 
 // Medium -> max menu: normal menu-item
 @media (min-width: $breakpoint--navigation){
