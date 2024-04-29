@@ -755,6 +755,22 @@
       "oAP" : "\/template-parts\/unit-teamup-godstone.php",
       "oF" : 0
     },
+    "\/template-parts\/unit-teamup-horley-adults.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/unit-teamup-horley-adults.php",
+      "oF" : 0
+    },
+    "\/template-parts\/unit-teamup-horley-juniors.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/unit-teamup-horley-juniors.php",
+      "oF" : 0
+    },
     "\/template-parts\/unit-teamup-horley.php" : {
       "cB" : 0,
       "ft" : 8192,

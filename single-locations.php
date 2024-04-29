@@ -43,6 +43,10 @@ get_header(); ?>
 						<section>
 							<?php if(get_field('location_teamup') === 'embedhorley') : ?>
 								<?php get_template_part('template-parts/unit-teamup-horley'); ?>
+							<?php elseif(get_field('location_teamup') === 'embedgodstoneadults') : ?>
+								<?php get_template_part('template-parts/unit-teamup-horley-adults'); ?>
+							<?php elseif(get_field('location_teamup') === 'embedgodstonejuniors') : ?>
+								<?php get_template_part('template-parts/unit-teamup-horley-juniors'); ?>
 							<?php elseif(get_field('location_teamup') === 'embedreedham') : ?>
 								<?php get_template_part('template-parts/unit-teamup-reedham'); ?>
 							<?php elseif(get_field('location_teamup') === 'embedredhill') : ?>
