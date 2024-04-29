@@ -58,7 +58,7 @@ get_header(); ?>
 						<?php } elseif(get_field('location_teamup_select') == 'teamupcode') { ?>
 							<div style="padding: 30px 20px; background: white;">
 								<script src='https://teamupstatic.com/teamup.js' type='text/javascript'></script>
-								<?php the_field('location_teamup_code_script'); ?>
+								<?php the_field('location_teamup_code_script'); ?>xx
 							</div>
 						<?php } ?>	
 
