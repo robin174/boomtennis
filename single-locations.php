@@ -41,7 +41,7 @@ get_header(); ?>
 							<?php endif; ?>
 						</section>
 
-						<?php if(get_field('location_select') == 'teamupurl') { ?>
+						<?php if(get_field('location_teamup_select') == 'teamupurl') { ?>
 							<section style="padding: 40px 0;">
 								<div class="row justify-content-center">
 									<div class="col-12">
@@ -55,7 +55,7 @@ get_header(); ?>
 									</div>
 								</div>
 							</section>
-						<?php } elseif(get_field('location_select') == 'teamupcode') { ?>
+						<?php } elseif(get_field('location_teamup_select') == 'teamupcode') { ?>
 							<div style="padding: 30px 20px; background: white;">
 								<script src='https://teamupstatic.com/teamup.js' type='text/javascript'></script>
 								<?php the_field('location_teamup_code_script'); ?>
