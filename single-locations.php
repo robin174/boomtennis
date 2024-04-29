@@ -56,9 +56,7 @@ get_header(); ?>
 								</div>
 							</section>
 						<?php } elseif(get_field('location_teamup_select') == 'teamupcode') { ?>
-							<div style="padding: 30px 20px; background: white;">
-								<?php the_field('location_code_script'); ?>
-							</div>
+							<div style="padding: 30px 20px; background: white;"><?php the_field('location_code_script'); ?></div>
 						<?php } ?>	
 
 
