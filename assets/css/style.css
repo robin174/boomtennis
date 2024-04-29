@@ -491,20 +491,19 @@ span.atm--pill-red {
 section.org--section-header p {
   font-size: 160%; }
 
-section.org--section-pdf i.fa-file-pdf {
-  color: #76bc21;
-  padding-right: 2rem; }
-
-section.org--section-pdf p.atm-nofile {
-  font-style: italic;
-  margin: 2px 0;
-  color: rgba(255, 255, 255, 0.2); }
-
-section.mol--section-pdf {
+.mol--section-pdf {
+  text-align: left;
   border-top: 1px solid #76bc21;
   padding-top: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem; }
+  .mol--section-pdf i.fa-file-pdf {
+    color: #76bc21;
+    padding-right: 2rem; }
+  .mol--section-pdf p.atm-nofile {
+    font-style: italic;
+    margin: 2px 0;
+    color: rgba(255, 255, 255, 0.2); }
 
 .block--image {
   margin-bottom: 4rem; }

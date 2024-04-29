@@ -96,14 +96,18 @@ span.atm--pill-red {
 	@include spanPill ($pill--red);
 }
 
-
 section.org--section-header {
 	& p {
 		font-size: 160%;
 	}
 }
 
-section.org--section-pdf {
+.mol--section-pdf {
+	text-align: left;
+	border-top: 1px solid $color--secondary;
+	padding-top: $padding--general;
+	margin-top: $margin--general;
+	margin-bottom: $margin--general;
 	& i.fa-file-pdf {
 		color: $color--secondary;
 		padding-right: $padding--general;
@@ -113,13 +117,6 @@ section.org--section-pdf {
 		margin: 2px 0;
 		color: rgba($color--white, 0.2);
 	}
-}
-
-section.mol--section-pdf {
-	border-top: 1px solid $color--secondary;
-	padding-top: $padding--general;
-	margin-top: $margin--general;
-	margin-bottom: $margin--general;
 }
 
 .block--heading {}

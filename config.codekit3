@@ -487,6 +487,14 @@
       "oAP" : "\/header.php",
       "oF" : 0
     },
+    "\/Hours" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Hours",
+      "oF" : 0
+    },
     "\/includes\/css\/bootstrap.min.css" : {
       "aP" : 1,
       "bl" : 0,
