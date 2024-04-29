@@ -48,7 +48,7 @@ get_header(); ?>
 										<div style="padding: 20px 0; margin-bottom: 30px;">
 											<img style="height: 90px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-teamup.svg" title="Logo - TeamUp">
 										</div>
-										<h2 style="margin-bottom: 20px;">View Boom Tennis on TeamUp.</h2>
+										<h2 style="margin-bottom: 20px;">View <?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&nbsp;&#64;&nbsp;<?php the_title(); ?> on TeamUp.</h2>
 										<div class="d-flex justify-content-center">
 											<a class="atm--button-signup" href="<?php the_field('location_url_teamup'); ?>" target="_blank">Visit TeamUp</a>
 										</div>
