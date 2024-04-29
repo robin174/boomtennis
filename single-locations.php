@@ -40,6 +40,30 @@ get_header(); ?>
 								</div>
 							<?php endif; ?>
 						</section>
+
+						<?php if(get_field('location_select') == 'teamupurl') { ?>
+							<section style="padding: 40px 0;">
+								<div class="row justify-content-center">
+									<div class="col-12">
+										<div style="padding: 20px 0; margin-bottom: 30px;">
+											<img style="height: 90px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-teamup.svg" title="Logo - TeamUp">
+										</div>
+										<h2 style="margin-bottom: 20px;">View course on TeamUp.</h2>
+										<div class="d-flex justify-content-center">
+											<a class="atm--button-signup" href="<?php the_field('location_url_teamup'); ?>" target="_blank">Visit TeamUp</a>
+										</div>
+									</div>
+								</div>
+							</section>
+						<?php } elseif(get_field('location_select') == 'teamupcode') { ?>
+							<div style="padding: 30px 20px; background: white;">
+								<script src='https://teamupstatic.com/teamup.js' type='text/javascript'></script>
+								<?php the_field('location_teamup_code_script'); ?>
+							</div>
+						<?php } ?>	
+
+
+						<?php /*
 						<section>
 							<?php if(get_field('location_teamup') === 'embedhorley') : ?>
 								<?php get_template_part('template-parts/unit-teamup-horley'); ?>
@@ -55,6 +79,7 @@ get_header(); ?>
 								<?php get_template_part('template-parts/unit-teamup-godstone'); ?>
 							<?php endif; ?>
 						</section>
+						*/ ?>
 					</div>
 				</div>
 			</div>
