@@ -29,9 +29,22 @@
 								<h4>Follow us</h4>
 								<ul>
 									<?php if (is_single()): ?>
-										<li><a href="https://instagram.com/<?php the_field('location_instagram');?>" target="_blank">Instagram - <?php the_field('location_shortname');?></a></li>
-										<li><a href="https://facebook.com/<?php the_field('location_facebook');?>" target="_blank">Facebook - <?php the_field('location_shortname');?></a></li>
-										<li><a href="https://twitter.com/<?php the_field('location_twitter');?>" target="_blank">Twitter - <?php the_field('location_shortname');?></a></li>
+										<?php if(get_field('location_instagram')) { ?>
+											<li><a href="https://instagram.com/<?php the_field('location_instagram');?>" target="_blank">Instagram - <?php the_field('location_shortname');?></a></li>
+										<?php } else { ?>
+											<li><a href="https://www.instagram.com/boomtennisredhill/" target="_blank">Instagram - Boom Tennis</a></li>
+										<?php } ?>
+
+										<?php if(get_field('location_facebook')) { ?>
+											<li><a href="https://facebook.com/<?php the_field('location_facebook');?>" target="_blank">Facebook - <?php the_field('location_shortname');?></a></li>
+										<?php } else { ?>
+											<li><a href="https://www.facebook.com/BoomRedhill" target="_blank">Facebook - Boom Tennis</a></li>
+										<?php } ?>
+
+										<?php if(get_field('location_twitter')) { ?>
+											<li><a href="https://twitter.com/<?php the_field('location_twitter');?>" target="_blank">X - <?php the_field('location_shortname');?></a></li>
+										<?php } else { ?>
+											<li><a href="https://twitter.com/boom_redhill" target="_blank">X - Boom Tennis</a></li>
 									<?php endif; ?>
 									<li><a href="<?php the_field('bt_youtube', 'option'); ?>" target="_blank">YouTube</a></li>
 								</ul>
