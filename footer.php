@@ -45,6 +45,7 @@
 											<li><a href="https://twitter.com/<?php the_field('location_twitter');?>" target="_blank">X - <?php the_field('location_shortname');?></a></li>
 										<?php } else { ?>
 											<li><a href="https://twitter.com/boom_redhill" target="_blank">X - Boom Tennis</a></li>
+										<?php } ?>
 									<?php endif; ?>
 									<li><a href="<?php the_field('bt_youtube', 'option'); ?>" target="_blank">YouTube</a></li>
 								</ul>
