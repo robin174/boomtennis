@@ -53,11 +53,11 @@ get_header(); ?>
 								<hr>
 								<h2 class="text--shadow"><?php the_field('home_app'); ?></h2>
 								<div class="d-flex justify-content-center">
-									<figure class="m-3">
-										<a href="https://apple.co/4d5geRx"><img style="height:60px;" src="<?php the_field('home_app_apple'); ?>" alt="Download on the App Store" /></a>
+									<figure class="m-1 m-md-3">
+										<a href="https://apple.co/4d5geRx"><img style="height:55px;" src="<?php the_field('home_app_apple'); ?>" alt="Download on the App Store" /></a>
 									</figure>
 									<figure class="m-3">
-										<a href="https://bit.ly/3zJ5cD4"><img style="height:60px;" src="<?php the_field('home_app_android'); ?>" alt="Get it on Google Play" /></a>
+										<a href="https://bit.ly/3zJ5cD4"><img style="height:55px;" src="<?php the_field('home_app_android'); ?>" alt="Get it on Google Play" /></a>
 									</figure>
 								</div>
 								<div>
