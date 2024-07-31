@@ -45,7 +45,34 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-12">
+						<div class="text-center">
+							<section>
+								<hr>
+								<h2 class="text--shadow"><?php the_field('home_app'); ?></h2>
+								<div class="d-flex justify-content-center">
+									<figure class="m-3">
+										<a href="https://apple.co/4d5geRx"><img style="height:60px;" src="<?php the_field('home_app_apple'); ?>" alt="Download on the App Store" /></a>
+									</figure>
+									<figure class="m-3">
+										<a href="https://bit.ly/3zJ5cD4"><img style="height:60px;" src="<?php the_field('home_app_android'); ?>" alt="Get it on Google Play" /></a>
+									</figure>
+								</div>
+								<div>
+									<p style="font-size: 0.9rem;margin-top: 10px;margin-bottom:0;color: rgba(255,255,255,0.5);">Powered by</p>
+									<figure class="m-3">
+										<img style="height:40px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/use-logo-teamup.png" alt="Get it on Google Play" />
+									</figure>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+		
 		<section class="mol-page-separator">
 			<div class="container-fluid" style="padding:0;">
 				<div class="row justify-content-center g-0">
