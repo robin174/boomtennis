@@ -47,21 +47,8 @@ get_header(); ?>
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-8">
 						<section class="text-center">
+							<!-- EngageBay Form -->
 							<div class="engage-hub-form-embed" id="eh_form_6576797433724928" data-id="6576797433724928"></div>
-							<script>
-								(window.EhDynamicRef ||= []).push(() => {
-									EhForms.create({
-									    "formId": "6576797433724928", // Required: The unique ID of your form
-									    "target": "", // Optional: Use a selector like ".class" or "#id"
-										"onFormReady": function(el, setValue) { // Optional
-									        // Example: Automatically fill the email field
-									        // setValue("email", "hello@example.com");
-
-									        // Write your custom code below
-									    }
-									});
-								});
-							</script>
 						</section>
 					</div>
 				</div>
