@@ -18,6 +18,9 @@ get_header(); ?>
 				</div>
 			</div>
 		</section>
+
+
+
 		<section class="mol--page-main">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -26,8 +29,21 @@ get_header(); ?>
 							<h1 class="type--brand text--shadow"><?php the_title(); ?></h1>
 							<h2 class="text--shadow"><?php the_field('home_headline'); ?></h2>
 							<p class="text--shadow"><?php the_field('home_text'); ?></p>
+							
 							<div>
-								<?php
+								<?php if( have_rows('home_page_selector') ): // Repeater Field Name ?>
+						            <ul class="bullet--copy"> 
+						                <?php while( have_rows('home_page_selector') ): the_row(); ?>
+
+						                	<a class="button-location" href="<?php the_sub_field('home_link'); ?>"><?php the_sub_field('home_link_button_cta');?></a>
+
+						                <?php endwhile; ?>
+						            </ul>
+				           		<?php endif; ?>
+							</div>
+
+							<div>
+								<?php /*
 						            $args=array(
 						 				'post_type' => 'locations',
 										'post_status' => 'publish',
@@ -39,7 +55,7 @@ get_header(); ?>
 						            	while ($my_query->have_posts()) : $my_query->the_post(); ?>
 											<a class="button-location" href="<?php the_permalink(); ?>"><?php the_field('location_shortname');?></a>
 										<?php endwhile; }
-		        						wp_reset_query(); ?>
+		        						wp_reset_query(); */ ?>
 							</div>
 						</div>
 					</div>

@@ -38,6 +38,11 @@ get_header(); ?>
 			<?php get_template_part ('template-parts/unit-tutoring'); ?>
 		<?php endif; ?>
 
+		<!-- EnagageBay Form -->
+		<?php if( get_field('engagebay_id') ): ?>
+			<?php get_template_part ('template-parts/unit-engagebay'); ?>
+		<?php endif; ?>
+
 		<!-- Additional PDFs -->
 		<?php get_template_part ('template-parts/unit-pdf'); ?>
 
@@ -49,7 +54,7 @@ get_header(); ?>
 						<section class="text-center">
 							<!-- EngageBay Form -->
 							<div class="engage-hub-form-embed" id="eh_form_6576797433724928" data-id="6576797433724928"></div>
-						</section>
+						</section><!-- via an ID -->
 					</div>
 				</div>
 			</div>
