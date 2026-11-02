@@ -32,13 +32,13 @@ get_header(); ?>
 							
 							<div>
 								<?php if( have_rows('home_page_selector') ): // Repeater Field Name ?>
-						            <ul class="bullet--copy"> 
+						        
 						                <?php while( have_rows('home_page_selector') ): the_row(); ?>
 
-						                	<a class="button-location" href="<?php the_sub_field('home_link'); ?>"><?php the_sub_field('home_link_button_cta');?></a>
+						                	<a class="button-location" style="margin-bottom:7px;" href="<?php the_sub_field('home_link'); ?>"><?php the_sub_field('home_link_button_cta');?></a>
 
 						                <?php endwhile; ?>
-						            </ul>
+						         
 				           		<?php endif; ?>
 							</div>
 
