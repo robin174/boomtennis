@@ -15,7 +15,7 @@ get_header(); ?>
 
 					<section class="org--section-events">
                         <section class="mol--section-events-upcoming">
-                            <h2>Upcoming Competitions</h2>
+                            <h2>Upcoming</h2>
                             <div class="block--section-events">
                                  <?php 
                                     $today = date('Ymd');
