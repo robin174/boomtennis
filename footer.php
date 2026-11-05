@@ -91,7 +91,7 @@
 							</div>
 	                	</div>
 
-	                	<div class="col-12 col-md-4 order-md-1">
+	                	<div class="col-12 col-md-6 order-md-1">
 	                		<p class="atm-copyright">&copy;&nbsp;<?php echo date('Y'); ?>&nbsp;<?php the_field('bt_company', 'option'); ?>. All rights reserved.<br>
 	       					Company No. 1441 2354 | Registered in England and Wales.</p>
 	       					<p class="atm-copyright"><a href="https://indd.adobe.com/view/1e7bd97a-2e9d-40a4-bcca-09ba3b120a8e" target="_blank" title="Caba Consultancy">Website designed by Caba Consultancy</a></p>
