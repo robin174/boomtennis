@@ -690,6 +690,14 @@
       "oAP" : "\/template-parts\/unit-course-upcoming.php",
       "oF" : 0
     },
+    "\/template-parts\/unit-engagebay.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/unit-engagebay.php",
+      "oF" : 0
+    },
     "\/template-parts\/unit-event-recent.php" : {
       "cB" : 0,
       "ft" : 8192,

@@ -47,6 +47,8 @@
 											<li><a href="https://twitter.com/boom_redhill" target="_blank">X - Boom Tennis</a></li>
 										<?php } ?>
 									<?php endif; ?>
+									<li><a href="<?php the_field('bt_instagram', 'option'); ?>" target="_blank">Instagram</a></li>
+									<li><a href="<?php the_field('bt_facebook', 'option'); ?>" target="_blank">Facebook</a></li>
 									<li><a href="<?php the_field('bt_youtube', 'option'); ?>" target="_blank">YouTube</a></li>
 								</ul>
 							</div>
