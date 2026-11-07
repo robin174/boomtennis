@@ -46,20 +46,6 @@ get_header(); ?>
 		<!-- Additional PDFs -->
 		<?php get_template_part ('template-parts/unit-pdf'); ?>
 
-		<!-- Test Form (Oct 26) -->
-		<?php if(is_page('test-form')) : ?>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-12 col-md-8">
-						<section class="text-center">
-							<!-- EngageBay Form -->
-							<div class="engage-hub-form-embed" id="eh_form_6576797433724928" data-id="6576797433724928"></div>
-						</section><!-- via an ID -->
-					</div>
-				</div>
-			</div>
-		<?php endif; ?>
-
 	</section>
 </section>
 

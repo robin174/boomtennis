@@ -176,7 +176,7 @@
 		*/ ?>
 		<?php wp_footer(); ?>
 
-		<!-- EngageBay Tracking Code -->
-		<script type="text/javascript" >var EhAPI = EhAPI || {}; EhAPI.after_load = function(){EhAPI.set_account('s57lb218i4u33smjaft2g9ii8c', 'boomtennis');EhAPI.execute('rules');};(function(d,s,f) {var sc=document.createElement(s);sc.type='text/javascript';sc.async=true;sc.src=f;var m=document.getElementsByTagName(s)[0];m.parentNode.insertBefore(sc,m);})(document, 'script', '//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v' + new Date().getHours());</script>
+		<!-- EngageBay Tracking Code, available at https://boomtennis.engagebay.com/home#admin-settings/tracking-code -->
+		<script type="text/javascript" >var EhAPI = EhAPI || {}; EhAPI.after_load = function(){EhAPI.set_account('erd7dvf2jg9pou3c3fuus9jf4s', 'boomtennis');EhAPI.execute('rules');};(function(d,s,f) {var sc=document.createElement(s);sc.type='text/javascript';sc.async=true;sc.src=f;var m=document.getElementsByTagName(s)[0];m.parentNode.insertBefore(sc,m);})(document, 'script', '//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v' + new Date().getHours());</script>
 	</body>
 </html>
